@@ -4,7 +4,7 @@ import functools as ft
 
 app = gf.Application()
 
-main_window = app.set_window('loader_logo.png', window_title='RepExp v1.0. Alpha',
+main_window = app.set_window('C:/Users/mbondaruk/Desktop/Py/DataExporter/loader_logo.png', window_title='RepExp v1.0. Alpha',
                              window_width_height='310x675', window_background='#1B1A17')
 
 app.set_label(main_window, label_text='Order ID:', label_font=('Roboto', 11, 'bold'), label_bg='#1B1A17',
